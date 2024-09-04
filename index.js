@@ -146,7 +146,7 @@ comuni.forEach((comune, i) => {
                 <p id="comuneMischiato1">${comuneMischiatoUnito}</p>
             </div>
             <div class="col">
-                <form class="formComune d-flex flex-nowrap" rispostaCorretta="${comune}">
+                <form class="formComune d-flex flex-nowrap justify-content-center" rispostaCorretta="${comune}">
                     <input type="text" class="insertedComune">
                     <button type="submit">INVIA!</button>
                 </form>
