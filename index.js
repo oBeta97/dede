@@ -141,18 +141,18 @@ comuni.forEach((comune, i) => {
     console.log(`${comune} >`, comuneMischiatoUnito)
 
     gameArea.innerHTML += `
-        <div class="row"> 
-            <div class="col-3 text-center">
+        <div class="row row-cols-1 row-cols-md-3 m-3 border border-rounded"> 
+            <div class="col text-center">
                 <p id="comuneMischiato1">${comuneMischiatoUnito}</p>
             </div>
-            <div class="col-3">
-                <form class="formComune" rispostaCorretta="${comune}">
+            <div class="col">
+                <form class="formComune d-flex flex-nowrap" rispostaCorretta="${comune}">
                     <input type="text" class="insertedComune">
                     <button type="submit">INVIA!</button>
                 </form>
             </div>
-            <div class="col-6">
-                <p class="console"></p>
+            <div class="col">
+                <p class="console text-center my-2"> </p>
             </div>
         </div>
     `;
